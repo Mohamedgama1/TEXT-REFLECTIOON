@@ -1,0 +1,15 @@
+{
+  "editor.tabSize": 4,
+  "editor.fontSize": 15,
+  "editor.accessibilitySupport": "auto",
+  "editor.autoClosingComments": "languageDefined",
+  "editor.accessibilityPageSize": 15,
+  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+  "editor.wordBreak": "normal",
+  "editor.wrappingStrategy": "advanced",
+  "window.closeWhenEmpty": true,
+  "window.commandCenter": true,
+  "window.autoDetectColorScheme": false,
+  "window.confirmSaveUntitledWorkspace": true,
+  "window.density.editorTabHeight": "compact"
+}

@@ -1,0 +1,31 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background:#000;
+}
+h1{
+    color:#fff;
+    font-weight: 800;
+    position: absolute;
+    font-size: 50px;
+
+}
+h1:before{
+    content: attr(refl-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotatex(180deg);
+    line-hight:52px;
+    /* text-transform: uppercase; */
+    transform-origin:bottom;
+    background: linear-gradient(to top, #fff, transparent);
+    -webkit-background-clip: text;
+    color:transparent;
+    opacity: 0.4;
+}
